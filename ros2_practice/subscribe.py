@@ -7,7 +7,7 @@ class HelloWorldSubscriber(Node):
         super().__init__('subscriber')
         self.subscription = self.create_subscription(
             String,
-            'reference',
+            'word',
             self.listener_callback,
             10)
 
