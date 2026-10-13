@@ -26,7 +26,6 @@ setup(
             'subscriber = ros2_practice.subscribe:main',
             'joy2twist = ros2_practice.joy2twist:main',
             'multi_turtle_spawner = ros2_practice.multi_turtle_spawner:main',
-            "robot_node = ros2_practice.robot:main",
             "consensus_controller = ros2_practice.consensus:main",
         ],
     },
