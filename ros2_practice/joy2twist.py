@@ -9,12 +9,12 @@
 #     def __init__(self):
 #         super().__init__('joy2twist')
 #         # publish
-#         self.pub = self.create_publisher(???, 10)
+#         self.pub = self.create_publisher(???, ???, 10)
 #         # subscribe
-#         self.sub = self.create_subscription(???, self.callback, 10)
+#         self.sub = self.create_subscription(???, ???, self.callback, 10)
 #         # Twist (empty)
 #         self.vel = Twist()
-    
+
 #     def callback(self, msg):
 #         self.vel.linear.x = ???
 #         self.vel.angular.z = ???
@@ -29,5 +29,3 @@
 
 # if __name__ == '__main__':
 #     main()
-
-

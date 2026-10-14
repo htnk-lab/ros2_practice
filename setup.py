@@ -18,7 +18,7 @@ setup(
     zip_safe=True,
     maintainer='whale',
     maintainer_email='oishi@hfg.sc.e.titech.ac.jp',
-    description='TODO: Package description',
+    description='ROS 2 practice package for beginners using turtlesim.',
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
