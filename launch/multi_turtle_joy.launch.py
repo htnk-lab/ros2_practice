@@ -21,7 +21,7 @@
 #                 remappings=[("/turtlesim2/turtle1/cmd_vel", "/turtle1/cmd_vel")],
 #             ),
 
-#             Node(package="joy", executable="joy_node", name="joy"),
+#             Node(package="joy", executable="joy_node"),
 
 #             Node(
 #                 package="ros2_practice",
