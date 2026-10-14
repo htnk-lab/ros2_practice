@@ -31,6 +31,10 @@ def generate_launch_description():
                 parameters=[{"initial_positions_json": json.dumps(robots)}],
             ),
             # 合意制御ノード
-            # 以下にノードを追加してください
+            Node(
+                package="ros2_practice",
+                executable="consensus_controller",
+                output="screen",
+            ),
         ]
     )
