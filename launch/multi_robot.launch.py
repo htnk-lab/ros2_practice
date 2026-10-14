@@ -1,5 +1,6 @@
+# 課題4
+
 from launch import LaunchDescription
-from launch.actions import TimerAction
 from launch_ros.actions import Node
 import json
 
@@ -33,7 +34,6 @@ def generate_launch_description():
             Node(
                 package="ros2_practice",
                 executable="consensus_controller",
-                name="consensus_controller",
                 output="screen",
             ),
         ]

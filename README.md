@@ -21,6 +21,7 @@ git clone https://github.com/htnk-lab/ros2_practice.git
 ```
 ```sh
 cd ~/ros2_ws/src/ros2_practice
+sudo apt install xterm
 python3 -m pip install -r requirements.txt
 ```
 ```sh

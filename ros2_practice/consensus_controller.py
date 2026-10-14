@@ -1,3 +1,5 @@
+# 課題4
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
@@ -33,6 +35,7 @@ class ConsensusController(Node):
             pub = self.create_publisher(Twist, topic, 10)
             self.cmd_vel_pubs.append(pub)
 
+        # 速度調整用のゲイン
         self.gain = 0.2
 
         # タイマーの作成
